@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Fuelprice web design</title>
+        <link rel="stylesheet" href="style.css">
+        <!--Boxicons CSS-->
+        <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <!--Unicons CSS-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+         
+    </head>
+
+<body>
+<style>
+
+         body {
+            background: linear-gradient(to right, #030C1A, white);
+          }
+</style>
+    <nav>
+    <section class="header">
+        <!-- <nav> -->
+            <a href="#" class = "logo">FuelPrice</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="">SERVICE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+        <!-- </nav> -->
+        <div class ="content2">
+            <div class="title">
+                Check FuelPrice
+                <div class="slider">
+                    <div>NOW</div>
+                    <div>ANYTIME</div>
+                    <div>ANYWHERE</div>
+                </div>
+            </div>
+            <p>
+              <br>Keeping track of fuel prices ensures that consumers and businesses are aware of the current<br>costs associated with fuel,
+                allowing them to make informed decisions about refueling, travel plans, and budgeting.
+            </p>
+            <button type="button">Visit Us To Know More</button>
+        </div>
+    </section>
+<!--Selection Area-->
+<section class="selection">
+    <h4>Search Area</h4>
+    <ul>
+        <li>
+            <div class="select-menu">
+                <div class="select-btn">
+                    <span class="sBtn-text">Select Fuel Type</span>
+                    <i class="bx bx-chevron-down"></i>
+                </div>
+                <ul class="options">
+                    <li class="option">
+                        <i class="bx bx-chevron-right"></i>
+                        <span class="option-text">Petrol</span>
+                    </li>
+                    <li class="option">
+                        <i class="bx bx-chevron-right"></i>
+                        <span class="option-text">Diesel</span>
+                    </li>
+                    <li class="option">
+                        <i class="bx bx-chevron-right"></i>
+                        <span class="option-text">All</span>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class = "wrapper">
+                <div class="select-btn">
+                    <span>Select Country</span>
+                    <i class="bx bx-chevron-down"></i>
+                </div>
+                <div class="content">
+                    <div class="search">
+                        <i class="uil uil-search"></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <ul class="options"></ul>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "wrapper1">
+                <div class="select-btn1">
+                        <span>Select City</span>
+                        <i class="bx bx-chevron-down"></i>
+                </div>
+                <div class="content1">
+                    <div class="search1">
+                        <i class="uil uil-search"></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <ul class="options1"></ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <button class="my-button">Click Here</button>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get references to the necessary elements
+        const selectMenu = document.querySelector(".select-menu");
+        const options = selectMenu.querySelector(".options");
+        const optionText = selectMenu.querySelector(".sBtn-text");
+
+        // Listen for click event on the select button
+        selectMenu.addEventListener("click", function() {
+            options.classList.toggle("active"); // Toggle visibility of options
+        });
+
+        // Listen for click event on each option
+        options.querySelectorAll(".option").forEach(option => {
+            option.addEventListener("click", function() {
+                const selectedText = option.querySelector(".option-text").textContent;
+                optionText.textContent = selectedText; // Update button text
+
+                // Hide the options
+                options.classList.remove("active");
+            });
+        });
+    });
+</script>
+</nav>
+<section class="footer">
+    <h5>About Us</h5>
+    <p>
+        It will help individual consumers and businesses that rely on transportation, fuel costs are a significant factor in budget planning. 
+       <br> Monitoring fuel prices helps in forecasting expenses and adjusting spending patterns accordingly.
+    </p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+
+    </div>
+</section>
+<!-- </nav> -->
+ <!--Javascript-->
+ <script src="script.js" defer></script>
+</body>
+</html>
