@@ -12,12 +12,12 @@
   # Fuel Price
   ## Market Price vs Formula Price 
 
-  <b><a align="center" href="https://www.youtube.com/watch?v=AWZpPUwqZ2s">Watch Demo Video</a></b>  <!--______ ISHITA -->
+  <b><a align="center" href="https://drive.google.com/file/d/1C7SY6uRyvNr_WT2iPlZy4LDEQhUonV65/view?usp=drive_link">Watch Demo Video</a></b> 
   <br/>
   <p align="center">
     Use this readme for knowing and getting into this project
     <br />
-    <a href="https://github.com/arnab2001/Ledged"><strong>docs »</strong></a>   <!--______ tiyasha -->
+    <a href="https://github.com/evatm27/Fuel-Price-Project"><strong>docs »</strong></a> 
     <br />
     <br />
   </p>
@@ -25,7 +25,7 @@
 
 ## !! ABOUT THE PROJECT !!
 
-<!-- VEDIO OR SCREENSHOT -->
+
 
 ### <b>💡__INSPIRATION__💡</b>
 -	In the recent years the price of fuels has increased at a high rate and there has been a great variation in price from place to place. Users are unaware about the distribution that are included in the retail price.
